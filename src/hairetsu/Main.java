@@ -68,8 +68,8 @@ class Main {
 		//変数numberに、与えられた数字の配列を代入
 		int [] numbers = {1,4,6,9,13,16};
 		
-		int oddSum = 0;
-		int evenSum = 0;
+		int oddSum = 0;  //奇数
+		int evenSum = 0; //偶数
 		
 		//for文を用いて、配列numbersの偶数の和と奇数の和を求める
 		for(int number :numbers) {
